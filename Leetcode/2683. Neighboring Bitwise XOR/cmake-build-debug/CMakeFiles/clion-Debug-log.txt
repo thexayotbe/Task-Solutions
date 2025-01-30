@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /Users/xayotbek/Desktop/Tasks/Leetcode/2683. Neighboring Bitwise XOR Select CMakeLists.txt
