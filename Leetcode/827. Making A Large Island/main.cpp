@@ -29,7 +29,6 @@ public:
                     key.push_back(dfs(i, j, id++, grid));
             }
         }
-
         if (key.empty()) return 1; 
 
         int ans = 1;
