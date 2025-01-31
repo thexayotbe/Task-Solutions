@@ -1,13 +1,12 @@
 class Solution {
-    int d[5] = {1, 0, -1, 0, 1}; // Direction vectors
+    int d[5] = {1, 0, -1, 0, 1}; 
     int n;
 
-    // Depth-First Search to mark island and calculate its size
     int dfs(int row, int col, int id, vector<vector<int>>& grid) {
-        grid[row][col] = id; // Mark cell with island ID
-        int cnt = 1; // Initialize size of the island
+        grid[row][col] = id; 
+        int cnt = 1; 
 
-        for (int i = 0; i < 4; i++) { // Explore all 4 directions
+        for (int i = 0; i < 4; i++) { 
             int nr = row + d[i];
             int nc = col + d[i + 1];
 
@@ -15,16 +14,15 @@ class Solution {
                 cnt += dfs(nr, nc, id, grid);
         }
 
-        return cnt; // Return the total size of the island
+        return cnt; 
     }
 
 public:
     int largestIsland(vector<vector<int>>& grid) {
         n = grid.size(); 
-        vector<int> key; // Store sizes of all islands
-        int id = 2; // Island IDs start from 2
+        vector<int> key; 
+        int id = 2; 
 
-        // Identify all islands and calculate their sizes
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 1)
@@ -32,26 +30,23 @@ public:
             }
         }
 
-        if (key.empty()) return 1; // Grid contains no land
+        if (key.empty()) return 1; 
 
         int ans = 1;
 
-        // Check all water cells and calculate potential island size
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 0) {
                     int cnt = 1;
 
-                    // Add sizes of neighboring islands
                     for (int k = 0; k < 4; k++) {
                         int nr = i + d[k];
                         int nc = j + d[k + 1];
 
                         if (nr >= 0 && nc >= 0 && nr < n && nc < n && grid[nr][nc] != 0 && key[grid[nr][nc] - 2] > 0)
-                            cnt += key[grid[nr][nc] - 2], key[grid[nr][nc] - 2] *= -1; // Mark island as visited
+                            cnt += key[grid[nr][nc] - 2], key[grid[nr][nc] - 2] *= -1; 
                     }
 
-                    // Reset the sizes of marked islands
                     for (int k = 0; k < 4; k++) {
                         int nr = i + d[k];
                         int nc = j + d[k + 1];
@@ -60,10 +55,10 @@ public:
                             key[grid[nr][nc] - 2] *= -1; // Unmark island
                     }
 
-                    ans = max(ans, cnt); // Update the largest possible island size
+                    ans = max(ans, cnt); size
                 }
             }
         }
-        return ans == 1 ? n * n : ans; // Return result
+        return ans == 1 ? n * n : ans; 
     }
 };
