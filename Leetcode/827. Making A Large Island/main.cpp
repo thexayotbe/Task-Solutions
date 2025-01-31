@@ -64,7 +64,6 @@ public:
                 }
             }
         }
-
         return ans == 1 ? n * n : ans; // Return result
     }
 };
