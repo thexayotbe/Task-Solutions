@@ -54,7 +54,6 @@ public:
                         if (nr >= 0 && nc >= 0 && nr < n && nc < n && grid[nr][nc] != 0 && key[grid[nr][nc] - 2] < 0)
                             key[grid[nr][nc] - 2] *= -1; // Unmark island
                     }
-
                     ans = max(ans, cnt); size
                 }
             }
