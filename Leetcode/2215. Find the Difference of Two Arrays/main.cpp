@@ -1,6 +1,3 @@
-#include <iostream>
-#include <unordered_set>
-using namespace std;
 class Solution {
 public:
     vector<vector<int>> findDifference(vector<int>& nums1, vector<int>& nums2) {
@@ -30,11 +27,3 @@ public:
     }
     
 };
-int main() {
-    Solution s;
-    vector<int> nums1 = {1,2,3};
-    vector<int> nums2 = {2,4,6};
-
-    s.findDifference(nums1, nums2);
-    return 0;
-}
