@@ -1,8 +1,3 @@
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>  // For std::find
-
-using namespace std;
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
@@ -23,11 +18,4 @@ public:
         return true;
     }
 };
-int main() {
-    Solution s;
-    vector<int> nums1 = {1,2,2,1,3};
-    cout << s.uniqueOccurrences(nums1) << endl;
 
-   
-    return 0;
-}
