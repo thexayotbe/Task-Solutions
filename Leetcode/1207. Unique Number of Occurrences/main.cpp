@@ -5,7 +5,6 @@ public:
         for (int num : arr) {
             count[num]++;
         }
-        
         vector<int> unique;
         for(auto pair : count){
             int count = pair.second;
