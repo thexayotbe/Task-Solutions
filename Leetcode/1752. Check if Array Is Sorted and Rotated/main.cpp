@@ -1,6 +1,3 @@
-#include <iostream>
-#include <unordered_map>
-#include <algorithm>  // For std::find
 
 using namespace std;
 class Solution {
@@ -14,11 +11,3 @@ public:
         return (nums[0] >= nums.back() && count == 1) || count == 0;
     }
 };
-int main() {
-    Solution s;
-    vector<int> nums1 = {1,2,3};
-    cout << s.check(nums1) << endl;
-
-   
-    return 0;
-}
