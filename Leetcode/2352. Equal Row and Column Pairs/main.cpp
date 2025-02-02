@@ -27,7 +27,6 @@ public:
                 count+= rows[col];
             }
         }
-        
         return count;
     }
 };
