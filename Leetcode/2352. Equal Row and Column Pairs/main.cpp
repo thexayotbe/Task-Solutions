@@ -3,7 +3,6 @@
 #include <unordered_map>
 #include <algorithm>  // For std::find
 using namespace std;
-
 class Solution {
 public:
     int equalPairs(vector<vector<int>>& grid) {
