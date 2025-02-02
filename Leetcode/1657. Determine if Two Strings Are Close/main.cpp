@@ -22,7 +22,6 @@ public:
                 return false;
             }
         }
-        
         sort(w1Freq.begin(), w1Freq.end());
         sort(w2Freq.begin(), w2Freq.end());
 
