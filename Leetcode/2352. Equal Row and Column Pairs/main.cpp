@@ -15,7 +15,6 @@ public:
             }
             count+= mp[v];
         }
-
         return count;
     }
 };
