@@ -24,7 +24,7 @@ public:
                 col += to_string(grid[i][j]) + ",";
             }
             if(rows.find(col) != rows.end()){
-                count++;
+                count+= rows[col];
             }
         }
         
@@ -35,7 +35,5 @@ int main() {
     Solution s;
     vector<vector<int>> grid = {{3,2,1},{1,7,6},{2,7,7}};
     cout << s.equalPairs(grid)<< endl;
-
-   
     return 0;
 }
