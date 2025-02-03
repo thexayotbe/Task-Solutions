@@ -1,7 +1,3 @@
-#include <iostream>
-#include <math.h>
-using namespace std;
-
 class Solution {
 public:
     int longestMonotonicSubarray(vector<int>& nums) {
@@ -30,12 +26,3 @@ public:
         
     }
 };
-
-
-
-int main() {
-    Solution s;
-    vector<int> nums = {3,2,1};
-    cout << s.longestMonotonicSubarray(nums) << endl;
-    return 0;
-}
