@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-    int longestMonotonicSubarray(vector<int>& nums) {
+    int maxAscendingSum(vector<int>& nums) {
         int currentSum = nums[0];
         int maxSum = nums[0];
         for(int i = 1; i< nums.size(); i++){
@@ -25,6 +25,6 @@ public:
 int main() {
     Solution s;
     vector<int> nums = {10,20,30,5,10,50};
-    cout << s.longestMonotonicSubarray(nums) << endl;
+    cout << s.maxAscendingSum(nums) << endl;
     return 0;
 }
