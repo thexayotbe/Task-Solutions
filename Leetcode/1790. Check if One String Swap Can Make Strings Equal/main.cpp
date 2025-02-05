@@ -1,9 +1,3 @@
-// Mamajonov Khayotbek DSAI - 02
-#include <iostream>
-#include <vector>
-#include <unordered_set>
-using namespace std;
-
 class Solution {
 public:
     bool areAlmostEqual(string s1, string s2) {
@@ -24,10 +18,4 @@ public:
     
 };
 
-int main() {
-    
-    Solution s;
-    cout << s.areAlmostEqual("aa", "ac");
-    
-    return 0;
-}
+
