@@ -1,9 +1,3 @@
-// Mamajonov Khayotbek DSAI - 02
-#include <iostream>
-#include <vector>
-#include <unordered_set>
-using namespace std;
-
 class Solution {
 public:
     string removeStars(string s) {
@@ -26,8 +20,4 @@ public:
         return str;
     }
 };
-int main() {
-    Solution s;
-    cout << s.removeStars("leet**cod*e") << endl;
-    return 0;
-}
+
