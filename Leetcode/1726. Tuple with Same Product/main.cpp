@@ -1,9 +1,3 @@
-// Mamajonov Khayotbek DSAI - 02
-#include <iostream>
-#include <vector>
-#include <unordered_set>
-using namespace std;
-
 class Solution {
 public:
     int tupleSameProduct(vector<int>& nums) {
@@ -29,9 +23,3 @@ public:
         return res;
     }
 };
-int main() {
-    Solution s;
-    vector<int> nums = {2,3,4,6,8,12};
-    cout << s.tupleSameProduct(nums) << endl;
-    return 0;
-}
