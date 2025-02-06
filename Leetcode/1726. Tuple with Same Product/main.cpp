@@ -10,8 +10,6 @@ public:
                 permutations[mult]++;
             }
         }
-        
-        
         for(auto pair : permutations){
             int count = pair.second;
             if(count > 1){
