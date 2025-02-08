@@ -12,7 +12,6 @@ public:
         res[number].push(index);
         index_val[index] = number;
     }
-
     int find(int number) {
         while (!res[number].empty() && index_val[res[number].top()] != number) {
             res[number].pop();
