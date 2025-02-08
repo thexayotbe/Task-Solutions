@@ -2,7 +2,6 @@ class NumberContainers {
 public:
     unordered_map<int, priority_queue<int, vector<int>, greater<int>>> res;
     unordered_map<int, int> index_val;
-
     void change(int index, int number) {
         if (index_val.count(index)) {
             int prevNum = index_val[index];
