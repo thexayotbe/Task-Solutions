@@ -9,7 +9,6 @@ public:
             goodPairs += freq[key];
             freq[key]++;
         }
-        
         return (n * (n - 1)) / 2 - goodPairs;
     }
 };
