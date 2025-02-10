@@ -11,4 +11,4 @@ class Solution {
             sort(nums.begin(), nums.end());
             return unique.size();
         }
-    };
+};
