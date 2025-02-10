@@ -7,9 +7,7 @@ using namespace std;
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int k = 0;
         unordered_set<int> unique;
-        int dubl = 0;
         for(int i = 0; i< nums.size();i++){
             if(unique.find(nums[i]) != unique.end()){
                 nums[i] = 101;
