@@ -7,21 +7,14 @@ using namespace std;
 class Solution {
 public:
     int maximumSum(vector<int>& nums) {
-        size_t n = nums.size();
-        int maxNumber = 0;
-        vector<int> sums;
-        for(int i = 0; i < nums.size(); i++){
-            sums.push_back(sumOfDig(nums[i]));
-        }
-       
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < n; j++){
-                if(i == j) continue;
-                if(sums[i] == sums[j]){
-                    int sum = nums[i] + nums[j];
-                    maxNumber = max(maxNumber, sum);
-                }
+        unordered_map<int, int> digitsSum;
+        int maxNumber = -1;
+        for(int i : nums) {
+            int sumDig = sumOfDig(i);
+            if(digitsSum.count(sumDig)){
+                maxNumber = max(maxNumber, i + digitsSum[sumDig]);
             }
+            digitsSum[sumDig] = max(i,digitsSum[sumDig]);
         }
         return maxNumber;
     }
@@ -36,7 +29,7 @@ private:
         }
         return sum;
     }
-   
+
     
 };
 
