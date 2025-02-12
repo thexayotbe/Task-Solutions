@@ -32,7 +32,6 @@ private:
 
     
 };
-
 int main() {
     Solution s;
     vector<int> nums = {18,43,36,13,7};
