@@ -13,13 +13,12 @@ class Solution {
             }
             return maxNumber;
         }
-    
     private:
         int sumOfDig(int n) {
             int sum = 0;
             while (n > 0) {
-                sum += n % 10; // Add the last digit of n to the sum
-                n /= 10;       // Remove the last digit from n
+                sum += n % 10;
+                n /= 10;      
             }
             return sum;
         }
