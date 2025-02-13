@@ -1,14 +1,3 @@
-// Khayotbek Mamajonov
-// DSAI - 02
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <stack>
-using namespace std;
-
-#include <vector>
-using namespace std;
-
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -27,9 +16,3 @@ public:
     }
 };
 
-int main() {
-    Solution st;
-    vector<int> digits = {1,2,3};
-    st.plusOne(digits);
-    return 0;
-}
