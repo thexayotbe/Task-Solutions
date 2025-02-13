@@ -14,7 +14,8 @@ public:
 
 int main() {
     Solution s;
-    vector<int> nums = {18,43,36,13,7};
-    cout << s.maximumSum(nums) << endl;
+    vector<int> nums = {2,11,10,1,3};
+    int k = 10;
+    cout << s.minOperations(nums,k) << endl;
     return 0;
 }
