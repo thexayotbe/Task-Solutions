@@ -13,7 +13,6 @@ public:
         return sum;
 
     }
-
     bool canPartition(string num,int index, int target) {
         if (index == num.length()) return target == 0;
 
