@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 class Solution {
 public:
     int punishmentNumber(int n) {
@@ -25,9 +22,3 @@ public:
         return false;
     }
 };
-int main() {
-    Solution solution;
-    int n = 10;
-    cout << solution.punishmentNumber(n) << endl;
-    return 0;
-}
