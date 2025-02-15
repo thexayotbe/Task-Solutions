@@ -4,35 +4,26 @@ using namespace std;
 class Solution {
 public:
     int punishmentNumber(int n) {
-        int punishmentNumber  = 0;
+        int sum = 0;
         for (int i = 1; i <= n; i++) {
-            int squareNum =  i * i;
-            string stringNum = to_string(squareNum);
-            vector<vector<int>> memoArray(stringNum.size(),
-                                          vector<int>(i + 1, -1));
-            if (findPunishment(0, 0, stringNum, i, memoArray)) {
-                punishmentNumber += squareNum;
+            if (canPartition(to_string(i*i), 0, i)) {
+                sum += (i*i);
             }
         }
-        return punishmentNumber;
+        return sum;
+
     }
-    bool findPunishment(int startIndex,int sum, string stringNum,  int target, vector<vector<int>>& memo) {
-        if (startIndex == stringNum.length()) return sum == target;
-        if (sum > target) return false;
-        if (memo[startIndex][sum] != -1) return memo[startIndex][sum];
 
-        bool partionFound = false;
+    bool canPartition(string num,int index, int target) {
+        if (index == num.length()) return target == 0;
 
-        for (int currentIndex = startIndex; currentIndex < stringNum.length(); currentIndex++) {
-            string currentString = stringNum.substr(startIndex,  currentIndex - startIndex  + 1);
-
-            int added = stoi(currentString);
-
-            partionFound = partionFound || findPunishment(currentIndex + 1, sum + added, stringNum, target, memo);
-
-            if (partionFound == true) return true;
+        int sum = 0;
+        for (int i = index; i < num.length(); i++) {
+            sum = sum * 10 + (num[i] - '0');
+            if (sum > target) break;
+            if (canPartition(num, i+1, target-sum)) return true;
         }
-        return memo[startIndex][sum] = partionFound;
+        return false;
     }
 };
 int main() {
