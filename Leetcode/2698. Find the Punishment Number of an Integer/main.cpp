@@ -36,7 +36,6 @@ public:
         return memo[startIndex][sum] = partionFound;
     }
 };
-
 int main() {
     Solution solution;
     int n = 10;
