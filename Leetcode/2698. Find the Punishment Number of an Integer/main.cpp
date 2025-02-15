@@ -10,7 +10,6 @@ public:
             string stringNum = to_string(squareNum);
             vector<vector<int>> memoArray(stringNum.size(),
                                           vector<int>(i + 1, -1));
-
             if (findPunishment(0, 0, stringNum, i, memoArray)) {
                 punishmentNumber += squareNum;
             }
