@@ -8,6 +8,7 @@ public:
     }
 };
 
+
 int main () {
     Solution solution;
     vector<int> v = solution.constructDistancedSequence(5);
