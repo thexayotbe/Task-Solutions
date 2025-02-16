@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.30)
+project(1718__Construct_the_Lexicographically_Largest_Valid_Sequence)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(1718__Construct_the_Lexicographically_Largest_Valid_Sequence main.cpp)
