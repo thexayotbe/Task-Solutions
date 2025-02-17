@@ -3,18 +3,17 @@ using namespace  std;
 
 class Solution {
 public:
-    vector<int> constructDistancedSequence(int n) {
+    int numTilePossibilities(string tiles) {
+        int count = 0;
 
+        return count;
     }
 };
 
 
 int main () {
     Solution solution;
-    vector<int> v = solution.constructDistancedSequence(5);
-    for (int i = 0; i < v.size(); i++) {
-        cout << v[i] << " ";
-    }
-    cout << "Hello World" << endl;
+    string const t = "AAB";
+    cout << solution.numTilePossibilities(t) << endl;
     return 0;
 };
