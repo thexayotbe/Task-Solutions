@@ -1,4 +1,3 @@
-#include <iostream>
 using namespace std;
 class Solution {
 public:
@@ -22,8 +21,3 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    vector<int> nums = {1,2,3};
-    s.permute(nums);
-}
