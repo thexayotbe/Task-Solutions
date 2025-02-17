@@ -31,13 +31,11 @@ private:
     }
     void permutation(vector<char>& tiles, int start, set<vector<char>>& result) {
         if (start == tiles.size()) {
-            // Skip storing permutations that contain only spaces
             if (any_of(tiles.begin(), tiles.end(), [](char c) { return c != ' '; })) {
                 result.insert(tiles);
             }
             return;
         }
-
         for (int i = start; i < tiles.size(); i++) {
             if (tiles[i] == ' ') continue;
             swap(tiles[start], tiles[i]);
