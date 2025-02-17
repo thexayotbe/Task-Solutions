@@ -17,7 +17,6 @@ private:
             }
             current.push_back(nums[i]);
             backtrack(nums, i + 1, current, result);
-
             current.pop_back();
         }
     }
