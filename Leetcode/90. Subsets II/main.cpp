@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace  std;
-
 class Solution {
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
@@ -24,13 +21,4 @@ private:
             current.pop_back();
         }
     }
-};
-
-
-int main () {
-    Solution solution;
-    string const t = "AAB";
-    vector<int> v = {1,2,2};
-    cout << solution.subsetsWithDup(v) << endl;
-    return 0;
 };
