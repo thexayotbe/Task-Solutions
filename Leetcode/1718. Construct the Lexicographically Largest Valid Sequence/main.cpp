@@ -1,7 +1,3 @@
-#include <iostream>
-#include <set>
-using namespace  std;
-
 class Solution {
 public:
     int numTilePossibilities(string tiless) {
@@ -51,10 +47,3 @@ private:
     }
 };
 
-
-int main () {
-    Solution solution;
-    string const t = "AAABBC";
-    cout << solution.numTilePossibilities(t) << endl << endl;
-    return 0;
-};
