@@ -4,7 +4,6 @@ public:
         int n = pattern.size();
         stack<int> numbers;
         string result = "";
-
         for (int i = 1; i <= n+1; i++) {
             numbers.push(i);
             if (i == n+1 || pattern[i-1] == 'I') {
