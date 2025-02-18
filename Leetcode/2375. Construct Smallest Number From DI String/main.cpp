@@ -16,15 +16,6 @@ public:
                 }
             }
         }
-        cout << result << endl;
         return result;
     }
 };
-int main() {
-    Solution  solution;
-    string pattern = "IIIDIDDD";
-    solution.smallestNumber(pattern);
-
-    return 0;
-
-}
