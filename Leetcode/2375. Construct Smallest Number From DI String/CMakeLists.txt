@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.30)
+project(2375__Construct_Smallest_Number_From_DI_String)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(2375__Construct_Smallest_Number_From_DI_String main.cpp)
