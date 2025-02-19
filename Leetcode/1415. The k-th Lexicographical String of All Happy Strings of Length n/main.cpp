@@ -1,7 +1,3 @@
-#include <iostream>
-#include <cmath>
-using namespace std;
-
 class Solution {
 public:
     string getHappyString(int n, int k) {
@@ -27,11 +23,3 @@ public:
     }
 
 };
-
-
-int main() {
-    Solution sol;
-    sol.getHappyString(1, 3);
-
-    return 0;
-}
