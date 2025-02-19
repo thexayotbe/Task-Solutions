@@ -1,24 +1,35 @@
 #include <iostream>
+using namespace std;
+class Solution {
+public:
+    string getHappyString(int n, int k) {
+        int total = 3* 2^(n-1);
+        if (k > total) return "";
+        vector<string> resultList;
+        generateHappyStrings("", n, k, resultList);
 
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-int main() {
-    // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the
-    // <b>lang</b> variable name to see how CLion can help you rename it.
-    auto lang = "C++";
-    std::cout << "Hello and welcome to " << lang << "!\n";
+        if (resultList.size() < k) return "";
+        return resultList[k-1];
 
-    for (int i = 1; i <= 5; i++) {
-        // TIP Press <shortcut actionId="Debug"/> to start debugging your code.
-        // We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/>
-        // breakpoint for you, but you can always add more by pressing
-        // <shortcut actionId="ToggleLineBreakpoint"/>.
-        std::cout << "i = " << i << std::endl;
     }
+    void generateHappyStrings(string current, int n, int k, vector<string> &resultList) {
+        if (current.length() == n) {
+            resultList.push_back(current);
+            return;
+        }
+        for (char ch : {'a', 'b', 'c'}) {
+            if (current.empty() || current.back() != ch) {
+                generateHappyStrings(current+ch, n, k, resultList);
+            }
+        }
+    }
+
+};
+
+
+int main() {
+    Solution sol;
+    sol.getHappyString(1, 3);
 
     return 0;
 }
-// TIP See CLion help at <a
-// href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>.
-//  Also, you can try interactive lessons for CLion by selecting
-//  'Help | Learn IDE Features' from the main menu.
