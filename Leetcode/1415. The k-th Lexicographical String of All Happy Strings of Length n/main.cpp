@@ -1,9 +1,11 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
+
 class Solution {
 public:
     string getHappyString(int n, int k) {
-        int total = 3* 2^(n-1);
+        int total = 3* pow(2, n-1);
         if (k > total) return "";
         vector<string> resultList;
         generateHappyStrings("", n, k, resultList);
