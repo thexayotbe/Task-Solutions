@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.30)
-project(1415__The_k_th_Lexicographical_String_of_All_Happy_Strings_of_Length_n)
-
-set(CMAKE_CXX_STANDARD 20)
-
-add_executable(1415__The_k_th_Lexicographical_String_of_All_Happy_Strings_of_Length_n main.cpp)
