@@ -1,6 +1,3 @@
-#include <iostream>
-#include <set>
-using namespace std;
 class Solution {
 public:
     string findDifferentBinaryString(vector<string>& nums) {
@@ -25,9 +22,3 @@ public:
 
 
 };
-int main() {
-    vector<string> nums = {"01","10"};
-    Solution solution;
-    cout << solution.findDifferentBinaryString(nums) << endl;
-    return 0;
-}
