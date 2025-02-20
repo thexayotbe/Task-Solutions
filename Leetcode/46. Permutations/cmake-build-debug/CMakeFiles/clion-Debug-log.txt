@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /Users/xayotbek/Desktop/Tasks/Leetcode/46. Permutations Select CMakeLists.txt
