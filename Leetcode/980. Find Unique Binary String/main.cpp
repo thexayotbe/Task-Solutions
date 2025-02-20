@@ -4,7 +4,6 @@ public:
         set<string> strN(nums.begin(), nums.end());
         int n = nums[0].size();
         return generate("", n, 0, strN);
-
     }
     string generate(string current, int n, int pos, set<string> strN) {
         if (pos == n) {
@@ -17,8 +16,6 @@ public:
         if (!r.empty()) {
             return r;
         }
-       return  generate(current + "1", n, pos + 1,strN);
+        return generate(current + "1", n, pos + 1, strN);
     }
-
-
 };
