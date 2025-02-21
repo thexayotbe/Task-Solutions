@@ -1,7 +1,3 @@
-#include <iostream>
-#include <unordered_set>
-using namespace std;
-
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -38,8 +34,3 @@ public:
         return values.find(target) != values.end();
     }
 };
-
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
