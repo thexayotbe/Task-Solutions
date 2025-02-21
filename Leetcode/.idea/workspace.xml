@@ -1,124 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
   </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="983e51fb-a250-4c91-bc72-594f16dfc24a" name="Changes" comment="Files Cleaed">
-      <change beforePath="$PROJECT_DIR$/1718. Construct the Lexicographically Largest Valid Sequence/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1732. Find the Highest Altitude/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1732. Find the Highest Altitude/.idea/1732. Find the Highest Altitude.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1732. Find the Highest Altitude/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1732. Find the Highest Altitude/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1732. Find the Highest Altitude/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1732. Find the Highest Altitude/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1765. Map of Highest Peak/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1765. Map of Highest Peak/.idea/1765. Map of Highest Peak.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1765. Map of Highest Peak/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1765. Map of Highest Peak/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1765. Map of Highest Peak/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1765. Map of Highest Peak/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017. GridGame/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017. GridGame/.idea/2017. GridGame.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017. GridGame/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017. GridGame/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017. GridGame/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017. GridGame/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2116. Check if a Parentheses String Can Be Valid/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2116. Check if a Parentheses String Can Be Valid/.idea/2116. Check if a Parentheses String Can Be Valid.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2116. Check if a Parentheses String Can Be Valid/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2116. Check if a Parentheses String Can Be Valid/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2116. Check if a Parentheses String Can Be Valid/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2116. Check if a Parentheses String Can Be Valid/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2185. Counting Words With a Given Prefix/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2185. Counting Words With a Given Prefix/.idea/2185. Counting Words With a Given Prefix.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2185. Counting Words With a Given Prefix/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2185. Counting Words With a Given Prefix/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2185. Counting Words With a Given Prefix/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2185. Counting Words With a Given Prefix/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/.idea/2375. Construct Smallest Number From DI String.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/.cmake/api/v1/reply/cache-v2-5131bf8de2139662cfc9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-5c9cb4888f857999de97.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c56c047f5d517e559351.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/.cmake/api/v1/reply/index-2025-02-18T12-19-47-0360.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/.cmake/api/v1/reply/target-2375__Construct_Smallest_Number_From_DI_String-Debug-6d43b592739681928a5b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-2f427dcd6919a7ef66e5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/2375__Construct_Smallest_Number_From_DI_String" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/2375__Construct_Smallest_Number_From_DI_String.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/3.30.5/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2375. Construct Smallest Number From DI String/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2425. Bitwise XOR of All Pairings/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2425. Bitwise XOR of All Pairings/.idea/2425. Bitwise XOR of All Pairings.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2425. Bitwise XOR of All Pairings/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2425. Bitwise XOR of All Pairings/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2425. Bitwise XOR of All Pairings/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2425. Bitwise XOR of All Pairings/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2429. Minimize XOR/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2429. Minimize XOR/.idea/2429. Minimize XOR.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2429. Minimize XOR/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2429. Minimize XOR/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2429. Minimize XOR/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2429. Minimize XOR/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2657. Find the Prefix Common Array of Two Arrays/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2657. Find the Prefix Common Array of Two Arrays/.idea/2657. Find the Prefix Common Array of Two Arrays.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2657. Find the Prefix Common Array of Two Arrays/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2657. Find the Prefix Common Array of Two Arrays/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2657. Find the Prefix Common Array of Two Arrays/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2657. Find the Prefix Common Array of Two Arrays/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2661. First Completely Painted Row or Column/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2661. First Completely Painted Row or Column/.idea/2661. First Completely Painted Row or Column.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2661. First Completely Painted Row or Column/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2661. First Completely Painted Row or Column/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2661. First Completely Painted Row or Column/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2661. First Completely Painted Row or Column/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2683. Neighboring Bitwise XOR/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2683. Neighboring Bitwise XOR/.idea/2683. Neighboring Bitwise XOR.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2683. Neighboring Bitwise XOR/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2683. Neighboring Bitwise XOR/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2683. Neighboring Bitwise XOR/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2683. Neighboring Bitwise XOR/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2698. Find the Punishment Number of an Integer/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2698. Find the Punishment Number of an Integer/.idea/2698. Find the Punishment Number of an Integer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2698. Find the Punishment Number of an Integer/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2698. Find the Punishment Number of an Integer/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2698. Find the Punishment Number of an Integer/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2698. Find the Punishment Number of an Integer/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2698. Find the Punishment Number of an Integer/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2698. Find the Punishment Number of an Integer/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="983e51fb-a250-4c91-bc72-594f16dfc24a" name="Changes" comment="Files Cleaed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +82,7 @@
       <updated>1739611340723</updated>
       <workItem from="1739611341926" duration="16000" />
       <workItem from="1739611368736" duration="164000" />
-      <workItem from="1740052456158" duration="451000" />
+      <workItem from="1740052456158" duration="505000" />
     </task>
     <task id="LOCAL-00001" summary="Files Cleaed">
       <option name="closed" value="true" />

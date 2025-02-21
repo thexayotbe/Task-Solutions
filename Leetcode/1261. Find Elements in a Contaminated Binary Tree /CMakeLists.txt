@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.30)
+project(1261__Find_Elements_in_a_Contaminated_Binary_Tree_)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(1261__Find_Elements_in_a_Contaminated_Binary_Tree_ main.cpp)
