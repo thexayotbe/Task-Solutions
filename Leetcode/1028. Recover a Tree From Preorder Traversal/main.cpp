@@ -43,6 +43,7 @@ public:
             while (st.size() > deepth) {
                 st.pop();
             }
+
             TreeNode *parent = st.top();
             if (parent->left == nullptr) {
                 parent->left = node;
