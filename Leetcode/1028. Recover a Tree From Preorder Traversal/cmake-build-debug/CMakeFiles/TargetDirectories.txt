@@ -1,0 +1,3 @@
+/Users/xayotbek/Desktop/Tasks/Leetcode/1028. Recover a Tree From Preorder Traversal/cmake-build-debug/CMakeFiles/1028__Recover_a_Tree_From_Preorder_Traversal.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/1028. Recover a Tree From Preorder Traversal/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/1028. Recover a Tree From Preorder Traversal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
