@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 class Solution {
 public:
     vector<int> applyOperations(vector<int>& nums) {
@@ -21,12 +19,3 @@ public:
         return ans;
     }
 };
-int main() {
-    vector<int> v = {1,2,2,1,1,0};
-    Solution s;
-   vector<int> r =  s.applyOperations(v);
-    for (int i : r) {
-        cout<<i<<" ";
-    }
-    return 0;
-}
