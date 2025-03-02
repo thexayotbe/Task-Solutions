@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 class Solution {
 public:
     vector<vector<int>> mergeArrays(vector<vector<int>>& nums1, vector<vector<int>>& nums2) {
@@ -27,10 +25,3 @@ public:
     }
 };
 
-int main() {
-    vector<vector<int>> nums1 = {{1,2},{2,3},{4,5}}, nums2 = {{1,4},{3,2},{4,1}};
-    Solution solution;
-    solution.mergeArrays(nums1, nums2);
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
