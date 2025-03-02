@@ -20,7 +20,6 @@ public:
         sort(res.begin(), res.end(), [](const vector<int>& v1, const vector<int>& v2) {
             return v1[0] < v2[0];
         });
-
         return res;
     }
 };
