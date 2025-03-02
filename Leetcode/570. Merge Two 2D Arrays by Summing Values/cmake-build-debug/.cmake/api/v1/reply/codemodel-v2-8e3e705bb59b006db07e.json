@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "570__Merge_Two_2D_Arrays_by_Summing_Values",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "570__Merge_Two_2D_Arrays_by_Summing_Values::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-570__Merge_Two_2D_Arrays_by_Summing_Values-Debug-30e44ce1bbf2c64cbed4.json",
+					"name" : "570__Merge_Two_2D_Arrays_by_Summing_Values",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/xayotbek/Desktop/Tasks/Leetcode/570. Merge Two 2D Arrays by Summing Values/cmake-build-debug",
+		"source" : "/Users/xayotbek/Desktop/Tasks/Leetcode/570. Merge Two 2D Arrays by Summing Values"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
