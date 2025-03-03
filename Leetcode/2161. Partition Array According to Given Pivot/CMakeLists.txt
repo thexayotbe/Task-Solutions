@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.30)
+project(2161__Partition_Array_According_to_Given_Pivot)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(2161__Partition_Array_According_to_Given_Pivot main.cpp)
