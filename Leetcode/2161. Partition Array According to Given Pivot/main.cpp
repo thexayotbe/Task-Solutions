@@ -5,24 +5,17 @@ public:
     vector<int> pivotArray(vector<int>& nums, int pivot) {
         vector<int> less;
         vector<int> great;
-        vector<int> mid;
+        int same = 0;
         for(int i = 0; i < nums.size(); i++){
             int num = nums[i];
             if(num < pivot) less.push_back(num);
             else if(num > pivot) great.push_back(num);
-            else mid.push_back(num);
+            else same++;
         }
-        vector<int> res;
-        for(int i : less) {
-            res.push_back(i);
-        }
-        for(int i : mid) {
-            res.push_back(i);
-        } for(int i : great) {
-            res.push_back(i);
-        }
+        while (same--) less.push_back(pivot);
+        for(int i : great) less.push_back(i);
 
-        return  res;
+        return  less;
     }
 };
 int main() {

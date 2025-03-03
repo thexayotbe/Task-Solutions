@@ -28,7 +28,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="425f945e-fcb1-451d-b9a1-84dae7f475d2" name="Changes" comment="" />
+    <list default="true" id="425f945e-fcb1-451d-b9a1-84dae7f475d2" name="Changes" comment="2161. Partition Array According to Given Pivot - Passed V1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,8 +112,17 @@
       <updated>1741022024007</updated>
       <workItem from="1741022025485" duration="71000" />
       <workItem from="1741022102211" duration="9000" />
-      <workItem from="1741022227887" duration="516000" />
+      <workItem from="1741022227887" duration="1135000" />
     </task>
+    <task id="LOCAL-00001" summary="2161. Partition Array According to Given Pivot - Passed V1">
+      <option name="closed" value="true" />
+      <created>1741023000143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741023000143</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,5 +132,9 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2161. Partition Array According to Given Pivot - Passed V1" />
+    <option name="LAST_COMMIT_MESSAGE" value="2161. Partition Array According to Given Pivot - Passed V1" />
   </component>
 </project>
