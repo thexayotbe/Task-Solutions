@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace  std;
 class Solution {
 public:
     bool checkPowersOfThree(int n) {
@@ -10,9 +8,3 @@ public:
         return true;
     }
 };
-
-int main() {
-    Solution s;
-    std::cout << s.checkPowersOfThree(11)  << std::endl;
-    return 0;
-}
