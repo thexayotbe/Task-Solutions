@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.30)
+project(1780__Check_if_Number_is_a_Sum_of_Powers_of_Three)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(1780__Check_if_Number_is_a_Sum_of_Powers_of_Three main.cpp)
