@@ -1,7 +1,3 @@
-#include <iostream>
-#include <unordered_set>
-using namespace std;
-
 class Solution {
 public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int> > &grid) {
@@ -25,10 +21,3 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-
-    vector<vector<int> > grid = {{9, 1, 7}, {8, 9, 2}, {3, 4, 6}};
-    s.findMissingAndRepeatedValues(grid);
-    return 0;
-}
