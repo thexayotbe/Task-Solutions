@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 class Solution {
 public:
     int minimumRecolors(string blocks, int k) {
@@ -22,9 +20,3 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    string  blocks = "WBBWWBBWBW"; int k = 7;
-    cout << s.minimumRecolors(string(blocks), k);
-    return 0;
-}
