@@ -1,3 +1,0 @@
-/Users/xayotbek/Desktop/Tasks/Leetcode/2379. Minimum Recolors to Get K Consecutive Black Blocks/cmake-build-debug/CMakeFiles/2379__Minimum_Recolors_to_Get_K_Consecutive_Black_Blocks.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/2379. Minimum Recolors to Get K Consecutive Black Blocks/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xayotbek/Desktop/Tasks/Leetcode/2379. Minimum Recolors to Get K Consecutive Black Blocks/cmake-build-debug/CMakeFiles/rebuild_cache.dir
