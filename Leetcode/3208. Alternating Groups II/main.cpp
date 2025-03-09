@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 class Solution {
 public:
     int numberOfAlternatingGroups(vector<int> &colors, int k) {
@@ -21,11 +18,3 @@ public:
         return count;
     }
 };
-
-int main() {
-    Solution s;
-    vector<int> colors = {0, 1, 0, 1, 0};
-    int k = 3;
-    cout << s.numberOfAlternatingGroups(colors, k) << endl;
-    return 0;
-}
