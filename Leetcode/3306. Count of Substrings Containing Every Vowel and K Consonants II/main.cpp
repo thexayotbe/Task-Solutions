@@ -1,7 +1,3 @@
-#include <iostream>
-#include <unordered_set>
-using namespace std;
-
 class Solution {
 public:
     long long countOfSubstrings(string word, int k) {
@@ -48,11 +44,3 @@ public:
         return response;
     }
 };
-
-int main() {
-    Solution s;
-    string word = "ieaouqqieaouqq";
-    int k = 1;
-    cout << s.countOfSubstrings(word, k) << endl;
-    return 0;
-}
