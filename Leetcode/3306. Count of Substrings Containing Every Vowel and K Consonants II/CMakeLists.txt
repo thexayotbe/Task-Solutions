@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.30)
+project(3306__Count_of_Substrings_Containing_Every_Vowel_and_K_Consonants_II)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(3306__Count_of_Substrings_Containing_Every_Vowel_and_K_Consonants_II main.cpp)
