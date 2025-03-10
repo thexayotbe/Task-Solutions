@@ -33,7 +33,7 @@ public:
                        left]] > 1) {
                 extraLeft++;
                 frequencies[1][word[left++]]--;
-            }
+                       }
 
             if (currentK == k && vowels == 5) {
                 response += (1 + extraLeft);
