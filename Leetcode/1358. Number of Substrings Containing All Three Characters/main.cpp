@@ -5,37 +5,24 @@ using namespace std;
 class Solution {
 public:
     int numberOfSubstrings(string word) {
-        int frequencies[2][128] = {};
-        frequencies[0]['a'] = 1;
-        frequencies[0]['b'] = 1;
-        frequencies[0]['c'] = 1;
-        int response = 0;
-        vector<string> res = generateParenthesis(word);
-
-        for (int i = 0; i < res.size(); i++) {
-             cout << res[i] << endl;
-        }
-
-        return response;
+        int count = 0;
+        backtrack(word, 0, count);
+        return count;
     }
-    void backtrack(int i, string& word, vector<string>& words, string& subset) {
-        if (i == word.size()) {
-            if (subset.size() >=3) {
-                words.push_back(subset);
-            }
+    void backtrack(const string& word, int start, int& count ) {
+        if (start == word.size()) {
             return;
         }
-        subset.push_back(word[i]);
-        backtrack(i+1, word, words, subset);
-        subset.pop_back();
-        backtrack(i+1, word, words, subset);
-    }
-
-    vector<string> generateParenthesis(string& word) {
-        vector<string> result;
-        string subset;;
-        backtrack(0, word, result, subset);
-        return result;
+        bool hasA = false, hasB = false, hasC = false;
+        for (int i = start; i < word.size(); i++) {
+            if (word[i] == 'a') hasA = true;
+            if (word[i] == 'b') hasB = true;
+            if (word[i] == 'c') hasC = true;
+            if (hasA && hasB && hasC) {
+                count++;
+            }
+        }
+        backtrack(word, start+1, count);
     }
 };
 
