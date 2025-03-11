@@ -6,24 +6,21 @@ class Solution {
 public:
     int numberOfSubstrings(string word) {
         int count = 0;
-        backtrack(word, 0, count);
-        return count;
-    }
-    void backtrack(const string& word, int start, int& count ) {
-        if (start == word.size()) {
-            return;
-        }
-        bool hasA = false, hasB = false, hasC = false;
-        for (int i = start; i < word.size(); i++) {
-            if (word[i] == 'a') hasA = true;
-            if (word[i] == 'b') hasB = true;
-            if (word[i] == 'c') hasC = true;
-            if (hasA && hasB && hasC) {
-                count++;
+        int aIndex = -1, bIndex = -1, cIndex = -1;
+
+        for (int i = 0; i < word.size(); i++) {
+            if (word[i] == 'a') aIndex = i;
+            if (word[i] == 'b') bIndex = i;
+            if (word[i] == 'c') cIndex = i;
+
+            if (aIndex != -1 && bIndex != -1 && cIndex != -1) {
+                count += min({aIndex, bIndex, cIndex}) + 1;
             }
         }
-        backtrack(word, start+1, count);
+
+        return count;
     }
+
 };
 
 int main() {
