@@ -1,7 +1,3 @@
-#include <iostream>
-#include <unordered_set>
-using namespace std;
-
 class Solution {
 public:
     int numberOfSubstrings(string word) {
@@ -23,9 +19,3 @@ public:
 
 };
 
-int main() {
-    string  s = "abcabc";
-    Solution solution;
-    cout << solution.numberOfSubstrings(s) << endl;
-    return 0;
-}
