@@ -1,0 +1,3 @@
+/Users/xayotbek/Desktop/Tasks/Leetcode/1358. Number of Substrings Containing All Three Characters/cmake-build-debug/CMakeFiles/1358__Number_of_Substrings_Containing_All_Three_Characters.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/1358. Number of Substrings Containing All Three Characters/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xayotbek/Desktop/Tasks/Leetcode/1358. Number of Substrings Containing All Three Characters/cmake-build-debug/CMakeFiles/rebuild_cache.dir
